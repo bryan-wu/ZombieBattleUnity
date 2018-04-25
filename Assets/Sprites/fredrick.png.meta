@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 3f13abf168942d14ab5761ba6a7d5aab
+timeCreated: 1524635192
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fredrick_0
+    21300002: fredrick_1
+    21300004: fredrick_2
+    21300006: fredrick_3
+    21300008: fredrick_4
+    21300010: fredrick_5
+    21300012: fredrick_6
+    21300014: fredrick_7
+    21300016: fredrick_8
+    21300018: fredrick_9
+    21300020: fredrick_10
+    21300022: fredrick_11
+    21300024: fredrick_12
+    21300026: fredrick_13
+    21300028: fredrick_14
+    21300030: fredrick_15
+    21300032: fredrick_16
+    21300034: fredrick_17
+    21300036: fredrick_18
+    21300038: fredrick_19
+    21300040: fredrick_20
+    21300042: fredrick_21
+    21300044: fredrick_22
+    21300046: fredrick_23
+    21300048: fredrick_24
+    21300050: fredrick_25
+    21300052: fredrick_26
+    21300054: fredrick_27
+    21300056: fredrick_28
+    21300058: fredrick_29
+    21300060: fredrick_30
+    21300062: fredrick_31
+    21300064: fredrick_32
+    21300066: fredrick_33
+    21300068: fredrick_34
+    21300070: fredrick_35
+    21300072: fredrick_36
+    21300074: fredrick_37
+    21300076: fredrick_38
+    21300078: fredrick_39
+    21300080: fredrick_40
+    21300082: fredrick_41
+    21300084: fredrick_42
+    21300086: fredrick_43
+    21300088: fredrick_44
+    21300090: fredrick_45
+    21300092: fredrick_46
+    21300094: fredrick_47
+    21300096: fredrick_48
+    21300098: fredrick_49
+    21300100: fredrick_50
+    21300102: fredrick_51
+    21300104: fredrick_52
+    21300106: fredrick_53
+    21300108: fredrick_54
+    21300110: fredrick_55
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fredrick_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 131
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fredrick_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 131
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fredrick_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 131
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fredrick_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 131
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fredrick_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 11
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fredrick_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 11
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fredrick_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 11
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
