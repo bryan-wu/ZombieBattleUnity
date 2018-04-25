@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoneyCollect : MonoBehaviour {
     // Global score
-    public static int score = 1000;
+    public static int score = 500;
 
     void OnMouseDown()
     {
