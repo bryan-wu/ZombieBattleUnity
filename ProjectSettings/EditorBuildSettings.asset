@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/mainMenu.unity
     guid: b4e1df4040522484c9b6a5b336b73414
+  - enabled: 1
+    path: Assets/instructionPage.unity
+    guid: ae45e67659fbd094b8304d6fdc1454c0
