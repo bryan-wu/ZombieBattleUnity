@@ -239,6 +239,7 @@
     <Compile Include="Assets\C# Script\BuildMenu.cs" />
     <Compile Include="Assets\C# Script\BulletDamage.cs" />
     <Compile Include="Assets\C# Script\DefaultVelocity.cs" />
+    <Compile Include="Assets\C# Script\EnemyAttacking.cs" />
     <Compile Include="Assets\C# Script\Firing.cs" />
     <Compile Include="Assets\C# Script\Grass.cs" />
     <Compile Include="Assets\C# Script\Health.cs" />
