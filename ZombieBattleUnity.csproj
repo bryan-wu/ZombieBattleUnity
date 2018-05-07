@@ -247,6 +247,7 @@
     <Compile Include="Assets\C# Script\MenuButtons.cs" />
     <Compile Include="Assets\C# Script\MoneyCollect.cs" />
     <Compile Include="Assets\C# Script\MoneySpawn.cs" />
+    <Compile Include="Assets\C# Script\playerMovement.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
