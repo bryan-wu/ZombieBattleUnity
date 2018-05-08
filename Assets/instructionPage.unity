@@ -303,11 +303,11 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "A zombie apocalypse has fallen upon Earth and it is your responsibility
-    to fight them off and protect mankind! \r\nPurpose: Shoot zombies upon sight.\r\nInstructions:\r\nYou
+    to fight them off and protect mankind! \r\nPurpose: \nShoot zombies upon sight.\r\nInstructions:\r\nYou
     will begin by choosing a character to play as your survivor.\r\nPress the space
     bar to shoot the zombies when you see them until their health goes to zero and
-    they die. Do not let the zombies pass the end line???\r\nUse the ***up and down***(TENTATIVE)
-    \ keys to move up and down respectively.\r\nAt the end of each round, assuming
+    they die. Do not let the zombies pass the end line.\r\nUse the A,W, S, D  keys
+    to move left, up, down, and right respectively.\r\nAt the end of each round, assuming
     you survive, you may purchase soldiers from the shop using the money you accumulate
     from killing each zombie and place them on the grid; they will help you shoot
     the zombies.\r\nComplete every round to save the world and become a hero.\r\n"
