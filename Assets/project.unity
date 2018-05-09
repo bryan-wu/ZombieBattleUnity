@@ -166,7 +166,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.5169156
+  orthographic size: 2.4939024
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2526,13 +2526,13 @@ MonoBehaviour:
   OrangeLavaSnake: {fileID: 1825985824724554, guid: 5862281c17e4d2c4ca450319b9b48393,
     type: 2}
   SpawnValuesX: 11.5
-  SpawnValuesYLower: 0
-  SpawnValuesYUpper: 4
   TimeBetweenSpawns: 0.5
   TimeBetweenWaves: 5
   ReducedTimeBetWaves: 1
   ZombiesCount: 5
   IncreaseZombies: 2
+  SpawnValuesYLower: 0
+  SpawnValuesYUpper: 5
 --- !u!4 &535960731
 Transform:
   m_ObjectHideFlags: 0
