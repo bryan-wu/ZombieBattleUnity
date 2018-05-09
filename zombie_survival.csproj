@@ -239,11 +239,15 @@
     <Compile Include="Assets\C# Script\BuildMenu.cs" />
     <Compile Include="Assets\C# Script\BulletDamage.cs" />
     <Compile Include="Assets\C# Script\DefaultVelocity.cs" />
+    <Compile Include="Assets\C# Script\EnemyAttacking.cs" />
     <Compile Include="Assets\C# Script\Firing.cs" />
+    <Compile Include="Assets\C# Script\GameController.cs" />
     <Compile Include="Assets\C# Script\Grass.cs" />
     <Compile Include="Assets\C# Script\Health.cs" />
+    <Compile Include="Assets\C# Script\MenuButtons.cs" />
     <Compile Include="Assets\C# Script\MoneyCollect.cs" />
     <Compile Include="Assets\C# Script\MoneySpawn.cs" />
+    <Compile Include="Assets\C# Script\playerMovement.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

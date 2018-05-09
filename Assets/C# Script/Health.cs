@@ -14,6 +14,9 @@ public class Health : MonoBehaviour {
 
         // Destroy if died
         if (cur <= 0)
+        {
             Destroy(gameObject);
+            MoneyCollect.score += 50;
+        }
     }
 }
