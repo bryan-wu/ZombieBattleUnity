@@ -6,7 +6,7 @@ public class EnemyAttacking : MonoBehaviour {
     // Last Attack Time
     float last = 0;
 
-    void OnCollisionStay2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         // Collided with a Plant?
         if (coll.gameObject.tag == "Ally")
