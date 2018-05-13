@@ -16,7 +16,10 @@ public class Health : MonoBehaviour {
         if (cur <= 0)
         {
             Destroy(gameObject);
-            MoneyCollect.score += 50;
+            if (gameObject.tag == "Zombie")
+            {
+                MoneyCollect.score += 50;
+            }
         }
     }
 }
