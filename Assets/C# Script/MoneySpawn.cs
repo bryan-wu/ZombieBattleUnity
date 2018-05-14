@@ -14,8 +14,6 @@ public class MoneySpawn : MonoBehaviour {
     void Spawn()
     {
         // Load prefab into the Scene
-        // -> transform.position means current position
-        // -> Quaternion.identity means default rotation
         Instantiate(prefab,
                     transform.position,
                     Quaternion.identity);

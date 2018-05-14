@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,9 +7,18 @@ public class playerMovement : MonoBehaviour {
     public float speed;
 
 	// Use this for initialization
-	void Start () {
+	void Start() {
 		
 	}
+
+    /*void OnCollisionStay2D(Collision2D coll)
+    {
+        if (coll.gameObject.tag == "Wall")
+        {
+            transform.position = new Vector3(0.0f, 0.0f, 0.0f);
+        }
+    }*/
+
 
     // Update is called once per frame
     void Update () {

@@ -6,7 +6,7 @@ public class BulletDamage : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D co)
     {
-        // Zombie?
+        // check if it's a zombie
         if (co.tag == "Zombie")
         {
             // Deal Damage, destroy Bullet

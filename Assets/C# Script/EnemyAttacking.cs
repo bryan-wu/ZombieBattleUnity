@@ -8,7 +8,7 @@ public class EnemyAttacking : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        // Collided with a Plant?
+        // check it collided with a soldier?
         if (coll.gameObject.tag == "Ally")
         {
             // Play Attack Animation
