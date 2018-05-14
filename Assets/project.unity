@@ -2421,8 +2421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09ae5cb8abcc3f44b34c8ebdc98b4eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrangeLavaSnake: {fileID: 1825985824724554, guid: 5862281c17e4d2c4ca450319b9b48393,
-    type: 2}
+  Zombies: {fileID: 1825985824724554, guid: 5862281c17e4d2c4ca450319b9b48393, type: 2}
   SpawnValuesX: 11.5
   TimeBetweenSpawns: 0.5
   TimeBetweenWaves: 5

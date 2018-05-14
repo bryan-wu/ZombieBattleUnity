@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BuildMenu : MonoBehaviour {
-    // Sun Image
+    // Coin Image
     public Texture moneyImage;
 
-    // Plant Prefabs
+    // Soldiers Prefabs
     public BuildInfo[] allies;
 
     // Currently building...
@@ -17,10 +17,10 @@ public class BuildMenu : MonoBehaviour {
         GUILayout.BeginArea(new Rect(5, Screen.height/2 - 100, 100, 200));
         GUILayout.BeginVertical("box");
 
-        // Draw the Sun
+        // Draw the coin
         GUILayout.Box(new GUIContent(MoneyCollect.score.ToString(), moneyImage));
 
-        // Draw each Plant's BuildInfo
+        // Draw each soldier's BuildInfo
         foreach (BuildInfo bi in allies) {
             GUI.enabled = MoneyCollect.score >= bi.price;
             if (GUILayout.Button(new GUIContent(bi.price.ToString(), bi.previewImage)))

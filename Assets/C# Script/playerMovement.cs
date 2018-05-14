@@ -11,14 +11,13 @@ public class playerMovement : MonoBehaviour {
 		
 	}
 
-    void OnCollisionStay2D(Collision2D coll)
+    /*void OnCollisionStay2D(Collision2D coll)
     {
-        // Collided with a Plant?
         if (coll.gameObject.tag == "Wall")
         {
             transform.position = new Vector3(0.0f, 0.0f, 0.0f);
         }
-    }
+    }*/
 
     // Update is called once per frame
     void Update () {

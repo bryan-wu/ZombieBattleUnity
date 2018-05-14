@@ -11,7 +11,7 @@ public class MoneyCollect : MonoBehaviour {
         // Increase Score
         score += 20;
 
-        // Destroy Sun
+        // Destroy coin
         Destroy(gameObject);
     }
 }
