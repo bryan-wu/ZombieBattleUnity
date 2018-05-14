@@ -5,8 +5,8 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public GameObject OrangeLavaSnake;
-    public float SpawnValuesX,TimeBetweenSpawns,TimeBetweenWaves,ReducedTimeBetWaves;
-    public int ZombiesCount, IncreaseZombies, SpawnValuesYLower, SpawnValuesYUpper;
+    public float SpawnValuesX,TimeBetweenSpawns,TimeBetweenWaves, ReducedTimeBetWaves;
+    public int ZombiesCount, IncreaseZombies,SpawnValuesYLower, SpawnValuesYUpper;
     // Use this for initialization
     void Start()
     {
