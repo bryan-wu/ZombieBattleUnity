@@ -189,7 +189,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 7379812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5, y: 1.5, z: -10}
+  m_LocalPosition: {x: 4.7, y: 1.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2457,7 +2457,7 @@ MonoBehaviour:
   ReducedTimeBetWaves: 1
   ZombiesCount: 5
   IncreaseZombies: 2
-  SpawnValuesYLower: 0
+  SpawnValuesYLower: -1
   SpawnValuesYUpper: 5
 --- !u!4 &535960731
 Transform:
@@ -3790,6 +3790,7 @@ GameObject:
   - component: {fileID: 938843566}
   - component: {fileID: 938843565}
   - component: {fileID: 938843567}
+  - component: {fileID: 938843568}
   m_Layer: 0
   m_Name: grass_dirt_all (65)
   m_TagString: Untagged
@@ -3879,6 +3880,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &938843568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 938843564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &970333373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4222,6 +4234,7 @@ GameObject:
   - component: {fileID: 1014837079}
   - component: {fileID: 1014837078}
   - component: {fileID: 1014837080}
+  - component: {fileID: 1014837081}
   m_Layer: 0
   m_Name: grass_dirt_all (58)
   m_TagString: Untagged
@@ -4311,6 +4324,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1014837081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014837077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1246063591
 GameObject:
   m_ObjectHideFlags: 0
@@ -4321,6 +4345,7 @@ GameObject:
   - component: {fileID: 1246063593}
   - component: {fileID: 1246063592}
   - component: {fileID: 1246063594}
+  - component: {fileID: 1246063595}
   m_Layer: 0
   m_Name: grass_dirt_all (61)
   m_TagString: Untagged
@@ -4410,6 +4435,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1246063595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246063591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1317494800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4741,6 +4777,7 @@ GameObject:
   - component: {fileID: 1329461626}
   - component: {fileID: 1329461625}
   - component: {fileID: 1329461627}
+  - component: {fileID: 1329461628}
   m_Layer: 0
   m_Name: grass_dirt_all (60)
   m_TagString: Untagged
@@ -4830,6 +4867,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1329461628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1329461624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1363575966
 GameObject:
   m_ObjectHideFlags: 0
@@ -4840,6 +4888,7 @@ GameObject:
   - component: {fileID: 1363575968}
   - component: {fileID: 1363575967}
   - component: {fileID: 1363575969}
+  - component: {fileID: 1363575970}
   m_Layer: 0
   m_Name: grass_dirt_all (62)
   m_TagString: Untagged
@@ -4929,6 +4978,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1363575970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1363575966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1368364910
 GameObject:
   m_ObjectHideFlags: 0
@@ -5716,6 +5776,7 @@ GameObject:
   - component: {fileID: 1501180562}
   - component: {fileID: 1501180561}
   - component: {fileID: 1501180563}
+  - component: {fileID: 1501180564}
   m_Layer: 0
   m_Name: grass_dirt_all (59)
   m_TagString: Untagged
@@ -5805,6 +5866,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1501180564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1501180560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1523830357
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,6 +6109,7 @@ GameObject:
   - component: {fileID: 1560699248}
   - component: {fileID: 1560699247}
   - component: {fileID: 1560699249}
+  - component: {fileID: 1560699250}
   m_Layer: 0
   m_Name: grass_dirt_all (57)
   m_TagString: Untagged
@@ -6126,6 +6199,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1560699250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1560699246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1682741961
 GameObject:
   m_ObjectHideFlags: 0
@@ -6289,6 +6373,7 @@ GameObject:
   - component: {fileID: 1712090675}
   - component: {fileID: 1712090674}
   - component: {fileID: 1712090676}
+  - component: {fileID: 1712090677}
   m_Layer: 0
   m_Name: grass_dirt_all (64)
   m_TagString: Untagged
@@ -6378,6 +6463,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1712090677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1712090673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1724988089
 GameObject:
   m_ObjectHideFlags: 0
@@ -7264,6 +7360,7 @@ GameObject:
   - component: {fileID: 1966532105}
   - component: {fileID: 1966532104}
   - component: {fileID: 1966532106}
+  - component: {fileID: 1966532107}
   m_Layer: 0
   m_Name: grass_dirt_all (55)
   m_TagString: Untagged
@@ -7353,6 +7450,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1966532107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966532103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1971610093
 GameObject:
   m_ObjectHideFlags: 0
@@ -7795,6 +7903,7 @@ GameObject:
   - component: {fileID: 2102437265}
   - component: {fileID: 2102437264}
   - component: {fileID: 2102437266}
+  - component: {fileID: 2102437267}
   m_Layer: 0
   m_Name: grass_dirt_all (56)
   m_TagString: Untagged
@@ -7884,6 +7993,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &2102437267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102437263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2110616476
 GameObject:
   m_ObjectHideFlags: 0
@@ -7894,6 +8014,7 @@ GameObject:
   - component: {fileID: 2110616478}
   - component: {fileID: 2110616477}
   - component: {fileID: 2110616479}
+  - component: {fileID: 2110616480}
   m_Layer: 0
   m_Name: grass_dirt_all (63)
   m_TagString: Untagged
@@ -7983,6 +8104,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &2110616480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110616476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2117244478
 GameObject:
   m_ObjectHideFlags: 0
