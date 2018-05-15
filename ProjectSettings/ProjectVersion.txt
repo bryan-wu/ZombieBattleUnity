@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 m_EditorVersion: 2018.1.0f2
 =======
 m_EditorVersion: 2017.4.0f1
@@ -11,3 +12,6 @@ m_EditorVersion: 2017.4.1f1
 =======
 m_EditorVersion: 2017.4.0f1
 >>>>>>> 9ba13ca93e165eb8845222b1530935b51fcabf67
+=======
+m_EditorVersion: 2017.4.1f1
+>>>>>>> 104b31ae320f5f1c3c5b5cd376e429e1f3c1db3c
