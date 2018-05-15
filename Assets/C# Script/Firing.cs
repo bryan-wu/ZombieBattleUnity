@@ -18,7 +18,7 @@ public class Firing : MonoBehaviour {
 
     bool zombieInFront()
     {
-        // Raycast from the right of the game to the plant
+        // Raycast from the right of the game to the ally
         Vector2 origin = new Vector2(9.5f, transform.position.y);
         RaycastHit2D[] hits = Physics2D.RaycastAll(origin, -Vector2.right);
 
