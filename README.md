@@ -9,4 +9,5 @@
 * Can't purchase the assualt soldier and money maker (each costs 50 coins) even if I still have more than 50 but less than 80 coins **That's what I noticed but not sure if it's really 80 or even higher**
 * After all the zombies pass, some soldiers are still shooting but others don't
 * Sometimes, the player (survivor) is shooting but there's no zombies or is not shooting but zombies are getting close **Not sure about the problems with shooting**
+* You can't really win or lose the game right now. Winning and losing conditions haven't been implemented yet
 4. Finally include brief guidance about how to use the system (e.g., how to play the game).
