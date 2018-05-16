@@ -1,5 +1,5 @@
 # G12 Zombie Battle
-![alt text](https://github.com/bryan-wu/ZombieBattleUnity/blob/master/sample.PNG "In-game capture")
+![alt text](https://github.com/bryan-wu/ZombieBattleUnity/blob/new_map/updatedsample.PNG "In-game capture")
 
 1. List precise instructions to build and execute your system. Be sure to tell us about necessary libraries, and about any operating system or other restrictions.
 2. Include any necessary details about where to store data files too.
