@@ -22,9 +22,17 @@ public class BuildMenu : MonoBehaviour {
 
         // Draw each soldier's BuildInfo
         foreach (BuildInfo bi in allies) {
-            GUI.enabled = MoneyCollect.score >= bi.price;
+            bool canBuy = MoneyCollect.score >= bi.price;
+            GUI.enabled = canBuy;
+            if(canBuy==false)
+            {
+                Debug.Log("not enough money to buy");
+            }
             if (GUILayout.Button(new GUIContent(bi.price.ToString(), bi.previewImage)))
+            {
                 cur = bi;
+                Debug.Log("clicked");
+            }
         }
 
         // End Gui
