@@ -6,7 +6,7 @@
 3. Also include any other special information we need to know in order to test your system properly (a list of known bugs, for example).
 **list of bugs**
 * The player (survivor) can move outside the game scene
-* Can't purchase the assualt soldier and money maker (each costs 50 coins) even if I still have more than 50 but less than 80 coins **That's what I noticed but not sure if it's really 80 or even higher**
+* Shop doesn't work properly in some special cases, for example: 1. Once a button for a particular type of soldiers greys out because user doesn't have enough money for that kind of soldiers, user also can't purchase other types of soldiers that user can afford. 2. Once a button is lightened because user now has enough money by collecting coins, user still can't buy those soldiers that user can afford.
 * After all the zombies pass, some soldiers are still shooting but others don't
 * Sometimes, the player (survivor) is shooting but there's no zombies or is not shooting but zombies are getting close **Not sure about the problems with shooting**
 * You can't really win or lose the game right now. Winning and losing conditions haven't been implemented yet
