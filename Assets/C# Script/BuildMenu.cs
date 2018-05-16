@@ -23,6 +23,7 @@ public class BuildMenu : MonoBehaviour {
         // Draw each Plant's BuildInfo
         foreach (BuildInfo bi in allies) {
             GUI.enabled = MoneyCollect.score >= bi.price;
+            Debug.Log(MoneyCollect.score.ToString());
             if (GUILayout.Button(new GUIContent(bi.price.ToString(), bi.previewImage)))
                 cur = bi;
         }
