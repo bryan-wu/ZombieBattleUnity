@@ -12,4 +12,4 @@
 * You can't really win or lose the game right now. Winning and losing conditions haven't been implemented yet
 4. Finally include brief guidance about how to use the system (e.g., how to play the game).
 * First, the main menu will be displayed with our game logo and options to play the game or see the instructions. If you choose to see the instructions first, you can click the quit button on the instruction page to return to the main menu
-* When you are in the game scene, zombies will automatically start coming from the right of the screen. You can control the police which is the only survivor you can choose to be right now using A,S,W,D on the keyboard to move the police left, down, up, right respectively.
+* When you are in the game scene, zombies will automatically start coming from the right of the screen. You can control the police which is the only survivor you can choose to be right now using A,S,W,D on the keyboard to move the police left, down, up, right respectively. You can also purchase soldiers to help you shoot the zombies by clicking the button that corresponds to a particular kind of soldiers. 
