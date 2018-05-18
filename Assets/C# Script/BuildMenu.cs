@@ -23,6 +23,7 @@ public class BuildMenu : MonoBehaviour {
             {
                 cur = bi;
             }
+			GUI.enabled = true;
         }
         GUILayout.EndHorizontal();
         GUILayout.EndArea();
