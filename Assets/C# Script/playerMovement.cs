@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour {
 
+    //Player's moveing speed
     public float speed;
 
 	// Use this for initialization
@@ -11,6 +12,7 @@ public class playerMovement : MonoBehaviour {
 		
 	}
 
+    //Test code for futher improvement, ignore now
     /*void OnCollisionStay2D(Collision2D coll)
     {
         if (coll.gameObject.tag == "Wall")
@@ -21,14 +23,18 @@ public class playerMovement : MonoBehaviour {
 
 
     // Update is called once per frame
+    //Pre-Condition:Player prefab is ready on the screen
+    //User has a keyboard for valid input
+    //The game is now running
+    //Post-Condition: Player prefab makes movement according to user's input
     void Update () {
         if (Input.GetKey(KeyCode.D))
-            transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+            transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f); //Right move
         if (Input.GetKey(KeyCode.A))
-            transform.position -= new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+            transform.position -= new Vector3(speed * Time.deltaTime, 0.0f, 0.0f); //Left move
         if (Input.GetKey(KeyCode.W))
-            transform.position += new Vector3(0.0f, speed * Time.deltaTime, 0.0f);
+            transform.position += new Vector3(0.0f, speed * Time.deltaTime, 0.0f); //Up move
         if (Input.GetKey(KeyCode.S))
-            transform.position -= new Vector3(0.0f, speed * Time.deltaTime, 0.0f);
+            transform.position -= new Vector3(0.0f, speed * Time.deltaTime, 0.0f); // Down move
     }
 }
