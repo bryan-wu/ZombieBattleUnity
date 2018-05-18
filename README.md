@@ -2,6 +2,7 @@
 ![alt text](https://github.com/bryan-wu/ZombieBattleUnity/blob/new_map/updatedsample.PNG "In-game capture")
 
 1. List precise instructions to build and execute your system. Be sure to tell us about necessary libraries, and about any operating system or other restrictions.
+* Download the zip file. Open the executable and make sure to check the Windowed option so that you can close the game window.
 2. Include any necessary details about where to store data files too.
 3. Also include any other special information we need to know in order to test your system properly (a list of known bugs, for example).
 **list of bugs**
@@ -12,7 +13,6 @@
 * You can't really win or lose the game right now. Winning and losing conditions haven't been implemented yet
 * You can place multiple soldiers on the same tile
 * The game gets partially cut off because it was built with free aspect
-* There is no exit button for the game; you can go to the start menu and anually close the application
 4. Finally include brief guidance about how to use the system (e.g., how to play the game).
 * First, the main menu will be displayed with our game logo and options to play the game or see the instructions. If you choose to see the instructions first, you can click the back button on the instruction page to return to the main menu
 * When you are in the game scene, zombies will automatically start coming from the right of the screen. You can control the police which is the only survivor you can choose to be right now using A,S,W,D on the keyboard to move the police left, down, up, right respectively. You can also purchase soldiers to help you shoot the zombies by first clicking the button that corresponds to a particular kind of soldiers and then click the grid that you want your soldier to be placed on. Money will be subducted automatically after your purchase given the price listed in the shop. Also, 50 coins will be added to your account after a zombie is killed. You can also collect coins generated from the money maker by clicking on it. Each one is worth 20 coins. 
