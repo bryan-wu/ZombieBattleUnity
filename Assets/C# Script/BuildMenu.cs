@@ -9,18 +9,13 @@ public class BuildMenu : MonoBehaviour {
     // Soldiers Prefabs
     public BuildInfo[] allies;
 
-    // Currently building...
+    // Currently building
     public static BuildInfo cur;
-
+//post-condition: shop is drawn with buttons that represent different soldiers vertically aligned
     void OnGUI() {
-        // Begin Gui
         GUILayout.BeginArea(new Rect(5, Screen.height/2 - 100, 100, 200));
         GUILayout.BeginVertical("box");
-
-        // Draw the coin
         GUILayout.Box(new GUIContent(MoneyCollect.score.ToString(), moneyImage));
-
-        // Draw each soldier's BuildInfo
         foreach (BuildInfo bi in allies) {
             bool canBuy = MoneyCollect.score >= bi.price;
             GUI.enabled = canBuy;
@@ -29,8 +24,6 @@ public class BuildMenu : MonoBehaviour {
                 cur = bi;
             }
         }
-
-        // End Gui
         GUILayout.EndHorizontal();
         GUILayout.EndArea();
     }
