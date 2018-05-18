@@ -41,4 +41,7 @@
 * <https://unity3d.com/learn/tutorials/projects/space-shooter/spawning-waves?playlist=17147>
 * Download the html file and then the source file. Then, double clicks to open the html file
 <https://drive.google.com/file/d/1Vc7xmYOnRlfmHbRI0YvK9OHkuM6Ig3wL/view?usp=sharing> <https://drive.google.com/drive/folders/1rlHqTyTCo0Z7EsxgeXxXXECEhIbOOlVv?usp=sharing>
+* <https://unity3d.com/learn/tutorials/projects/2d-ufo-tutorial/controlling-player>
+  <https://www.youtube.com/watch?v=wDtNnD6HncU>
+
 
