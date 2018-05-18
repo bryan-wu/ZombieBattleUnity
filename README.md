@@ -37,7 +37,7 @@
 * Soldiers and the police will be dead if they are touched by zombies too many times.
 * You can't control the shooting of soldiers and player. They will automatically start shooting once the zombies are in a given range.
 * You can't really win or lose the game right now. As if now, after waves of zombies pass, the game can be deemed as over. You can just exit the application by closing the window
-## 5. All the resouces(tutorials) we referred to
+## 5. All the resources(tutorials) we referred to
 * <https://unity3d.com/learn/tutorials/projects/space-shooter/spawning-waves?playlist=17147>
 * Download the html file and then the source file. Then, double clicks to open the html file
 <https://drive.google.com/file/d/1Vc7xmYOnRlfmHbRI0YvK9OHkuM6Ig3wL/view?usp=sharing> <https://drive.google.com/drive/folders/1rlHqTyTCo0Z7EsxgeXxXXECEhIbOOlVv?usp=sharing>
