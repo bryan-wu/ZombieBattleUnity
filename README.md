@@ -3,6 +3,7 @@
 
 ## 1. List precise instructions to build and execute your system. Be sure to tell us about necessary libraries, and about any operating system or other restrictions.
 * Our game is a desktop game
+* Only support OS X or Windows system
 ### How to build our project
 * In order to build our project, unity must be downloaded and used to open our project then build
 ### How to run our project (NO NEED TO DOWNLOAD UNITY, SKIP "HOW TO BUILD OUR PROJECT" IF YOU ONLY NEED TO RUN)
@@ -13,6 +14,12 @@
 * Play the game according to the instructions under number 4
 * Exit by closing the window
 #### For Mac:
+* Download the zip file **include a link here**
+* unzip it
+* May need to change the setting in system preference, security & privacy, allow app downloaded from: check "anywhere" so that Mac won'r prevent you from running our game
+* Double clicks to open the upzipped file. 1. make sure to check the Windowed option so that you can close the game window. 2. can keep the default screen resolution but some parts of the battle ground will be cut off depending on different kinds of Mac. That's something we need to fix later (mentioned below). 3. click play
+* Play the game according to the instructions under number 4
+* Exit by closing the window
 ## 2. Include any necessary details about where to store data files too.
 * All the data files will be in the downloaded folder
 ## 3. Also include any other special information we need to know in order to test your system properly (a list of known bugs, for example).
