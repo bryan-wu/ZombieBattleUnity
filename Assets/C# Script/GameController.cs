@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour
 				Vector2 SpawnPositions3 = new Vector2(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
                 Instantiate(Zombies, SpawnPositions, Quaternion.identity);
 				Instantiate (Zombieboss, SpawnPositions2, Quaternion.identity);
-				Instantiate (CrazyZombies, SpawnPositions2, Quaternion.identity);
+				Instantiate (CrazyZombies, SpawnPositions3, Quaternion.identity);
                 yield return new WaitForSeconds(TimeBetweenSpawns);
             }
             TimeBetweenWaves -= ReducedTimeBetWaves;
