@@ -11,8 +11,8 @@
 * Download the zip file [Windows 64 bit Installation](https://drive.google.com/open?id=1S9sYeDLZjktDaNnRKx7R9n4cP51AWZRx)
 * Unzip it
 * Run the executable "Zombie Battle G12.exe". 
-  1. make sure to check the Windowed option so that you can close the game window. 
-  2. select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but cutting off of the scenes will be unpredictable). 
+  1. Make sure to check the Windowed option so that you can close the game window. 
+  2. Select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but cutting off of the scenes will be unpredictable). 
   3. Click "Play!"
 * Play the game according to the instructions under number 4
 * Exit by closing the window
@@ -21,9 +21,9 @@
 * Unzip it
 * May need to change the setting in system preference, security & privacy, allow app downloaded from: check "anywhere" so that Mac won'r prevent you from running our game
 * Double clicks to open the upzipped file. 
-  1. make sure to check the Windowed option so that you can close the game window. 
-  2. can keep the default screen resolution but some parts of the battle ground will be cut off depending on different kinds of Mac (can also try 720 * 480 resolution if that's an option). That's something we need to fix later (mentioned below). 
-  3. click play
+  1. Make sure to check the Windowed option so that you can close the game window. 
+  2. Can keep the default screen resolution but some parts of the battle ground will be cut off depending on different kinds of Mac (can also try 720 * 480 resolution if that's an option). That's something we need to fix later (mentioned below). 
+  3. Click play
 * Play the game according to the instructions under number 4
 * Exit by closing the window
 ## 2. Include any necessary details about where to store data files too.
@@ -34,7 +34,7 @@
 * After all the zombies pass, some soldiers are still shooting but others don't
 * Sometimes, the player (survivor) is shooting but there's no zombies or is not shooting but zombies are getting closer
 * You can't really win or lose the game right now. Winning and losing conditions haven't been implemented yet
-* We didn't really consider various screen resolutions among different monitors when we started building the game. Therefore, the game gets partially cut off depending on the resolution of the computer because it was built with free aspect. As a result of that, the shop overlaps with some of the tiles. The UI doens't look very nice right now.
+* We didn't really consider various screen resolutions among different monitors when we started building the game. Therefore, the game gets partially cut off depending on the resolution of the computer because it was built with free aspect. As a result of that, the shop overlaps with some of the tiles.
 ##### Note
 * Our source code is in the Assets folder, under C# Script
 ## 4. Finally include brief guidance about how to use the system (e.g., how to play the game).
