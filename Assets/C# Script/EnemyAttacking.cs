@@ -6,9 +6,10 @@ public class EnemyAttacking : MonoBehaviour {
     // Last Attack Time
     float last = 0;
 
+    //Post-condition: zombie attacked a soldier
     void OnTriggerEnter2D(Collider2D coll)
     {
-        // check it collided with a soldier?
+        // check if it collided with a soldier
         if (coll.gameObject.tag == "Ally")
         {
             // Play Attack Animation
