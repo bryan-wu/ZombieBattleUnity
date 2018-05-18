@@ -7,6 +7,8 @@
 * Download the zip file **Maybe from the google drive? include a link here**
 * Unzip it
 * Open the executable. 1. make sure to check the Windowed option so that you can close the game window. 2. select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but cutting off of the scenes will be unpredictable). 3. click play
+* Play the game according to the instructions under number 4
+* Exit by closing the window
 #### For Mac:
 ## 2. Include any necessary details about where to store data files too.
 * All the data files will be in the downloaded folder
@@ -26,4 +28,4 @@
 * When you are in the game scene, zombies will automatically start coming from the right of the screen. You can control the police which is the only survivor you can choose to be right now using A,S,W,D on the keyboard to move the police left, down, up, right respectively. You can also purchase soldiers to help you shoot the zombies by first clicking the button that corresponds to a particular kind of soldiers and then click the grid that you want your soldier to be placed on. Money will be subducted automatically after your purchase given the price listed in the shop. Also, 50 coins will be added to your account after a zombie is killed. You can also collect coins generated from the money maker by clicking on it. Each one is worth 20 coins. 
 * Soldiers and the police will be dead if they are touched by zombies too many times.
 * You can't control the shooting of soldiers and player. They will automatically start shooting once the zombies are in a given range.
-* You can't really win or lose the game right now. As if now, after waves of zombies pass, the game can be deemed as over. You can just exit the application.
+* You can't really win or lose the game right now. As if now, after waves of zombies pass, the game can be deemed as over. You can just exit the application by closing the window
