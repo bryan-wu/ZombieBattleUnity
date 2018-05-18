@@ -24,14 +24,9 @@ public class BuildMenu : MonoBehaviour {
         foreach (BuildInfo bi in allies) {
             bool canBuy = MoneyCollect.score >= bi.price;
             GUI.enabled = canBuy;
-            if(canBuy==false)
-            {
-                Debug.Log("not enough money to buy");
-            }
             if (GUILayout.Button(new GUIContent(bi.price.ToString(), bi.previewImage)))
             {
                 cur = bi;
-                Debug.Log("clicked");
             }
         }
 

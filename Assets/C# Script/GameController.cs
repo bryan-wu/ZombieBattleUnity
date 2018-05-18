@@ -9,11 +9,12 @@ public class GameController : MonoBehaviour
 	public GameObject CrazyZombies;
     public float SpawnValuesX,TimeBetweenSpawns,TimeBetweenWaves, ReducedTimeBetWaves;
     public int ZombiesCount, IncreaseZombies,SpawnValuesYLower, SpawnValuesYUpper;
-    // Use this for initialization
+    //This gets called first automatically
     void Start()
     {
         StartCoroutine (SpawnZombies());
     }
+    //post-condition: zombies are produced given the parameters that determin the rate of spawning and number of zombies spawned
     IEnumerator SpawnZombies()
     {
         while (TimeBetweenWaves>0)
