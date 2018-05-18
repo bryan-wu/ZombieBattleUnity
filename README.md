@@ -23,7 +23,7 @@
 * Sometimes, the player (survivor) is shooting but there's no zombies or is not shooting but zombies are getting closer
 * You can't really win or lose the game right now. Winning and losing conditions haven't been implemented yet
 * You can place multiple soldiers on the same tile
-* We didn't really consider various screen resolutions among different monitors when we started building the game. Therefore, the game gets partially cut off depending on the resolution of the computer because it was built with free aspect. The UI doens't look very nice right now.
+* We didn't really consider various screen resolutions among different monitors when we started building the game. Therefore, the game gets partially cut off depending on the resolution of the computer because it was built with free aspect. As a result of that, the shop overlaps with some of the tiles. The UI doens't look very nice right now.
 ##### Note
 * Our source code is in the Assets folder, under C# Script
 ## 4. Finally include brief guidance about how to use the system (e.g., how to play the game).
