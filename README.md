@@ -10,14 +10,20 @@
 #### For Windows computer:
 * Download the zip file [Windows 64 bit Installation](https://drive.google.com/open?id=1S9sYeDLZjktDaNnRKx7R9n4cP51AWZRx)
 * Unzip it
-* Open the executable "Zombie Battle G12.exe". 1. make sure to check the Windowed option so that you can close the game window. 2. select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but cutting off of the scenes will be unpredictable). 3. click play
+* Run the executable "Zombie Battle G12.exe". 
+  1. make sure to check the Windowed option so that you can close the game window. 
+  2. select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but cutting off of the scenes will be unpredictable). 
+  3. Click "Play!"
 * Play the game according to the instructions under number 4
 * Exit by closing the window
 #### For Mac:
 * Download the zip file [OS X Installation](https://drive.google.com/file/d/1SbfHrpfKzpbxfp86QZHHqG2XzWpd2glB/view?usp=sharing)
-* unzip it
+* Unzip it
 * May need to change the setting in system preference, security & privacy, allow app downloaded from: check "anywhere" so that Mac won'r prevent you from running our game
-* Double clicks to open the upzipped file. 1. make sure to check the Windowed option so that you can close the game window. 2. can keep the default screen resolution but some parts of the battle ground will be cut off depending on different kinds of Mac (can also try 720 * 480 resolution if that's an option). That's something we need to fix later (mentioned below). 3. click play
+* Double clicks to open the upzipped file. 
+  1. make sure to check the Windowed option so that you can close the game window. 
+  2. can keep the default screen resolution but some parts of the battle ground will be cut off depending on different kinds of Mac (can also try 720 * 480 resolution if that's an option). That's something we need to fix later (mentioned below). 
+  3. click play
 * Play the game according to the instructions under number 4
 * Exit by closing the window
 ## 2. Include any necessary details about where to store data files too.
