@@ -5,7 +5,12 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Zombies: {fileID: 1825985824724554, guid: 5862281c17e4d2c4ca450319b9b48393, type: 2}
+  - Zombieboss: {fileID: 1237354834704668, guid: 272e8d4c4212b42d9bad908cf4e07d0e,
+      type: 2}
+  - CrazyZombies: {fileID: 1906590983218164, guid: c7eb038e20dc14579a9fa02edb8c8f13,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
