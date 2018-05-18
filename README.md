@@ -3,7 +3,7 @@
 
 ## 1. List precise instructions to build and execute your system. Be sure to tell us about necessary libraries, and about any operating system or other restrictions.
 * Our game is a desktop game
-### How to build our project
+### How to build our project (NO NEED TO DOWNLOAD UNITY)
 * In order to build our project, unity must be downloaded and used to open our project then build
 ### How to run our project
 #### For Windows computer:
