@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MoneySpawn : MonoBehaviour {
 
-    //Prefab of Sun
-    public GameObject SunPrefab;
+    public GameObject moneyPrefab;
 
     // Use this for initialization
     //Post-condition: Repeat spawning every time interval
@@ -15,11 +14,11 @@ public class MoneySpawn : MonoBehaviour {
         InvokeRepeating("Spawn", 10, 10);
     }
 
-    //Post-condition: generate a sun prefab
+    //Post-condition: generate a money prefab
     void Spawn()
     {
         // Load prefab into the Scene
-        Instantiate(SunPrefab,
+        Instantiate(moneyPrefab,
                     transform.position,
                     Quaternion.identity);
     }
