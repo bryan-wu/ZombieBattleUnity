@@ -1,17 +1,17 @@
 # G12 Zombie Battle
 ![alt text](https://github.com/bryan-wu/ZombieBattleUnity/blob/new_map/updatedsample.PNG "In-game capture")
 
-1. List precise instructions to build and execute your system. Be sure to tell us about necessary libraries, and about any operating system or other restrictions.
+## 1. List precise instructions to build and execute your system. Be sure to tell us about necessary libraries, and about any operating system or other restrictions.
 * Our game is a desktop game
-### For Windows computer:
+#### For Windows computer:
 * Download the zip file **Maybe from the google drive? include a link here**
 * Unzip it
-* Open the executable. 1. make sure to check the Windowed option so that you can close the game window. 2. select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but the cutting off the scenes will be unpredictable). 3. click play
-### For Mac:
+* Open the executable. 1. make sure to check the Windowed option so that you can close the game window. 2. select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but cutting off of the scenes will be unpredictable). 3. click play
+#### For Mac:
 2. Include any necessary details about where to store data files too.
 * All the data files will be in the downloaded folder
 3. Also include any other special information we need to know in order to test your system properly (a list of known bugs, for example).
-**List of bugs**
+##### List of bugs
 * The player (survivor) can move outside the game scene
 * Shop doesn't work properly in some special cases, for example: 1. Once a button for a particular type of soldiers greys out because user doesn't have enough money for that kind of soldiers, user also can't purchase other types of soldiers that user can afford. 2. Once a button is lightened because user now has enough money by collecting coins, user still can't buy those soldiers that user can afford.
 * After all the zombies pass, some soldiers are still shooting but others don't
@@ -19,7 +19,7 @@
 * You can't really win or lose the game right now. Winning and losing conditions haven't been implemented yet
 * You can place multiple soldiers on the same tile
 * We didn't really consider various screen resolutions among different monitors when we started building the game. Therefore, the game gets partially cut off depending on the resolution of the computer because it was built with free aspect. The UI doens't look very nice right now.
-**Note**
+##### Note
 * Our source code is in the Assets folder, under C# Script
 4. Finally include brief guidance about how to use the system (e.g., how to play the game).
 * First, the main menu will be displayed with our game logo and options to play the game or see the instructions. If you choose to see the instructions first, you can click the back button on the instruction page to return to the main menu
