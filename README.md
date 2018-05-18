@@ -8,13 +8,13 @@
 * In order to build our project, unity must be downloaded and used to open our project then build
 ### How to run our project (NO NEED TO DOWNLOAD UNITY, SKIP "HOW TO BUILD OUR PROJECT" IF YOU ONLY NEED TO RUN)
 #### For Windows computer:
-* Download the zip file **Maybe from the google drive? include a link here**
+* Download the zip file [A link to our game in google drive for Windows](https://drive.google.com/open?id=1S9sYeDLZjktDaNnRKx7R9n4cP51AWZRx)
 * Unzip it
 * Open the executable. 1. make sure to check the Windowed option so that you can close the game window. 2. select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but cutting off of the scenes will be unpredictable). 3. click play
 * Play the game according to the instructions under number 4
 * Exit by closing the window
 #### For Mac:
-* Download the zip file [a link to our game in google drive](https://drive.google.com/file/d/1SbfHrpfKzpbxfp86QZHHqG2XzWpd2glB/view?usp=sharing)
+* Download the zip file [A link to our game in google drive for Mac](https://drive.google.com/file/d/1SbfHrpfKzpbxfp86QZHHqG2XzWpd2glB/view?usp=sharing)
 * unzip it
 * May need to change the setting in system preference, security & privacy, allow app downloaded from: check "anywhere" so that Mac won'r prevent you from running our game
 * Double clicks to open the upzipped file. 1. make sure to check the Windowed option so that you can close the game window. 2. can keep the default screen resolution but some parts of the battle ground will be cut off depending on different kinds of Mac (can also try 720 * 480 resolution if that's an option). That's something we need to fix later (mentioned below). 3. click play
