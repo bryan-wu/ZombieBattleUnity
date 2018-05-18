@@ -3232,9 +3232,9 @@ MonoBehaviour:
   CrazyZombies: {fileID: 1906590983218164, guid: c7eb038e20dc14579a9fa02edb8c8f13,
     type: 2}
   SpawnValuesX: 11.5
-  TimeBetweenSpawns: 0.5
-  TimeBetweenWaves: 30
-  ReducedTimeBetWaves: 1
+  TimeBetweenSpawns: 1.1
+  TimeBetweenWaves: 24
+  ReducedTimeBetWaves: 2
   ZombiesCount: 3
   IncreaseZombies: 2
   SpawnValuesYLower: -1
