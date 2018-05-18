@@ -25,7 +25,6 @@
 ## 3. Also include any other special information we need to know in order to test your system properly (a list of known bugs, for example).
 ##### List of bugs
 * The player (survivor) can move outside the game scene
-* Shop doesn't work properly in some special cases, for example: 1. Once a button for a particular type of soldiers greys out because user doesn't have enough money for that kind of soldiers, user also can't purchase other types of soldiers that user can afford. 2. Once a button is lightened because user now has enough money by collecting coins, user still can't buy those soldiers that user can afford.
 * After all the zombies pass, some soldiers are still shooting but others don't
 * Sometimes, the player (survivor) is shooting but there's no zombies or is not shooting but zombies are getting closer
 * You can't really win or lose the game right now. Winning and losing conditions haven't been implemented yet
@@ -38,3 +37,8 @@
 * Soldiers and the police will be dead if they are touched by zombies too many times.
 * You can't control the shooting of soldiers and player. They will automatically start shooting once the zombies are in a given range.
 * You can't really win or lose the game right now. As if now, after waves of zombies pass, the game can be deemed as over. You can just exit the application by closing the window
+## 5. All the tutorials we referred to
+* <https://unity3d.com/learn/tutorials/projects/space-shooter/spawning-waves?playlist=17147>
+* Download the html file and then the source file. Then, double clicks to open the html file
+<https://drive.google.com/file/d/1Vc7xmYOnRlfmHbRI0YvK9OHkuM6Ig3wL/view?usp=sharing> <https://drive.google.com/drive/folders/1rlHqTyTCo0Z7EsxgeXxXXECEhIbOOlVv?usp=sharing>
+
