@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class BulletDamage : MonoBehaviour {
 
+    //Pre-conditon: a bullet is fired and flying
+
+    //Post-condition: collide with the object if it is a zombie
+    //damage zombie's health by 1
+    //destory the bullet
     void OnTriggerEnter2D(Collider2D co)
     {
-        // Zombie?
+        // check if it's a zombie
         if (co.tag == "Zombie")
         {
             // Deal Damage, destroy Bullet

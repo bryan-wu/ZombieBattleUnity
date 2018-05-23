@@ -16,9 +16,11 @@ public class Firing : MonoBehaviour {
         InvokeRepeating("Shoot", 0, interval);
     }
 
+    //Post-condition: True is returned if a zombie is in front
+    //false is returned otherwise
     bool zombieInFront()
     {
-        // Raycast from the right of the game to the plant
+        // Raycast from the right of the game to the ally
         Vector2 origin = new Vector2(9.5f, transform.position.y);
         RaycastHit2D[] hits = Physics2D.RaycastAll(origin, -Vector2.right);
 
@@ -32,11 +34,12 @@ public class Firing : MonoBehaviour {
         return false;
     }
 
+    //Post-condition: soldier fire
     void Shoot()
     {
         if (zombieInFront())
         {
-            // Animation
+            // Shooting Animation
             GetComponent<Animator>().SetTrigger("IsFiring");
 
             // Instantiate Bullet
