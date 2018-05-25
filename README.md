@@ -1,8 +1,4 @@
 # G12 Zombie Battle
-<<<<<<< HEAD
-## Everthing we have is on the with_executable branch, including our latest version of project and all the instructions
-![alt text](https://github.com/bryan-wu/ZombieBattleUnity/blob/master/sample.PNG "In-game capture")
-=======
 ![alt text](https://github.com/bryan-wu/ZombieBattleUnity/blob/new_map/updatedsample.PNG "In-game capture")
 
 ## 1. List precise instructions to build and execute your system. Be sure to tell us about necessary libraries, and about any operating system or other restrictions.
@@ -54,5 +50,4 @@
 * <https://unity3d.com/learn/tutorials/projects/2d-ufo-tutorial/controlling-player>
   <https://www.youtube.com/watch?v=wDtNnD6HncU>
 
->>>>>>> eba1c59877244b57fd086b15a379cb7907720544
 
