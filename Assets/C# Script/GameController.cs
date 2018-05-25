@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+    public Text waveMes;
     public GameObject Zombies;
     public GameObject Zombieboss;
     public GameObject CrazyZombies;
@@ -28,6 +30,13 @@ public class GameController : MonoBehaviour
     {
         StartCoroutine (SpawnZombies());
     }
+    IEnumerator WaveMessage(string message, float displayTime)
+    {
+        waveMes.text = message;
+        waveMes.enabled = true;
+        yield return new WaitForSeconds(displayTime);
+        waveMes.enabled = false;
+    }
     //post-condition: zombies are produced given the parameters that determin the rate of spawning and number of zombies spawned
     IEnumerator SpawnZombies()
     {
@@ -47,9 +56,11 @@ public class GameController : MonoBehaviour
                 }
                 yield return new WaitForSeconds(TimeBetweenSpawns);
             }
+            yield return StartCoroutine(WaveMessage("WARNING: new wave of zombies is here!", 2));
             TimeBetweenWaves -= ReducedTimeBetWaves;
-            ZombiesCount+=IncreaseZombies;
+            ZombiesCount+=IncreaseZombies;          
             yield return new WaitForSeconds(TimeBetweenWaves);
         }
     }
+     
 }
