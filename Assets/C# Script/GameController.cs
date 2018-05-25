@@ -61,6 +61,8 @@ public class GameController : MonoBehaviour
             ZombiesCount+=IncreaseZombies;          
             yield return new WaitForSeconds(TimeBetweenWaves);
         }
+        yield return new WaitForSeconds(52);
+        yield return StartCoroutine(WaveMessage("Congrats player, you've won!", 10));
     }
      
 }
