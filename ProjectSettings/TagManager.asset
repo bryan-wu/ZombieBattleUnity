@@ -7,6 +7,7 @@ TagManager:
   - Ally
   - Zombie
   - Wall
+  - FinishLine
   layers:
   - Default
   - TransparentFX

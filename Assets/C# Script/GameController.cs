@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 
 public class GameController : MonoBehaviour
 {
@@ -43,8 +44,11 @@ public class GameController : MonoBehaviour
         GameObject[] zom = { Zombies, Zombieboss, CrazyZombies };
         while (TimeBetweenWaves>0)
         {
-            for (int i = 0; i < ZombiesCount; i++)
+            if (EnemyAttacking.ZombiesPassed <= 5)
             {
+                for (int i = 0; i < ZombiesCount; i++)
+                {
+
                 foreach (GameObject obj in zom)
                 {
                     Vector3 SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
@@ -55,11 +59,20 @@ public class GameController : MonoBehaviour
                     Instantiate(obj, SpawnPositions, Quaternion.identity);
                 }
                 yield return new WaitForSeconds(TimeBetweenSpawns);
-            }
-            yield return StartCoroutine(WaveMessage("WARNING: new wave of zombies is here!", 2));
-            TimeBetweenWaves -= ReducedTimeBetWaves;
-            ZombiesCount+=IncreaseZombies;          
-            yield return new WaitForSeconds(TimeBetweenWaves);
+                }
+                
+                    yield return StartCoroutine(WaveMessage("WARNING: new wave of zombies is here!", 2));
+                    TimeBetweenWaves -= ReducedTimeBetWaves;
+                    ZombiesCount += IncreaseZombies;
+                    yield return new WaitForSeconds(TimeBetweenWaves);
+             }
+                else
+                {
+                    yield return StartCoroutine(WaveMessage("Game over. The zombies have taken over and you've lost :(", 60));
+                    yield break;
+
+                }
+
         }
         yield return new WaitForSeconds(52);
         yield return StartCoroutine(WaveMessage("Congrats player, you've won!", 10));

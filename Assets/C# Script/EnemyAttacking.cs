@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyAttacking : MonoBehaviour {
     // Last Attack Time
     float last = 0;
+    public static int ZombiesPassed = 0;
 
     //Post-condition: zombie attacked a soldier
     void OnTriggerEnter2D(Collider2D coll)
@@ -20,6 +21,11 @@ public class EnemyAttacking : MonoBehaviour {
                 coll.gameObject.GetComponent<Health>().doDamage(1);
                 last = Time.time;
             }
+        }
+        else if (coll.gameObject.tag == "FinishLine")
+        {
+            //count number of zombies passing
+            ZombiesPassed += 1;
         }
     }
 }
