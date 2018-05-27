@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 767
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 679, y: 471}
+  m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
-  controlID: 8321
+  controlID: 9662
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,10 +121,10 @@ MonoBehaviour:
     y: 0
     width: 1149
     height: 767
-  m_MinSize: {x: 404, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 404, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 8322
+  controlID: 9642
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 8302
+  controlID: 9643
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,10 +202,10 @@ MonoBehaviour:
     height: 443
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 1334}
-    m_SelectedIDs: c8e40000
-    m_LastClickedID: 58568
-    m_ExpandedIDs: 8674fdffcc7afdff127dfdff5a83fdffe487fdff6493fdffb09bfdffe0a8fdff6eaffdff4cb8fdff8abefdff9e16feff601bfeffe04bfeff6c52feff5264feff6c65fefffa73feff00a5feffe4aefeffe0b1feff10b3feffccbcfeff94bdfeffeedafeff9cdefeff86dffeffce2affffb02bffffa42dffffc631ffff3832ffff9e34ffffcc4dffff36fbffff00000000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 50290000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 5aaffcff50bffcffd4cbfcffcad0fcffe8d6fcffeed7fcffced8fcff9e1afdff8674fdffcc7afdff127dfdff5a83fdffe487fdff6493fdffb09bfdffe0a8fdff6eaffdff4cb8fdff8abefdff9e16feff601bfeffe04bfeff6c52feff5264feff6c65fefffa73feff00a5feffe4aefeffe0b1feff10b3feffccbcfeff94bdfeffeedafeff9cdefeff86dffeffce2affffb02bffffa42dffffc631ffff3832ffff9e34ffffcc4dffff36fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -288,9 +288,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.4103491, y: 0.983123, z: -0.050336324}
+    m_Target: {x: 4.4225025, y: 0.71116626, z: -0.009911297}
     speed: 2
-    m_Value: {x: 3.4103491, y: 0.983123, z: -0.050336324}
+    m_Value: {x: 4.4225025, y: 0.71116626, z: -0.009911297}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -318,9 +318,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 15.020875
+    m_Target: 10.994043
     speed: 2
-    m_Value: 15.020875
+    m_Value: 10.994043
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -424,18 +424,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/C# Script
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/C# Script
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\DENNIS\Desktop\UCSB\CS48\CS48Project\Github\Demo\ZombieBattleUnity
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70330000
-    m_LastClickedID: 13168
+    m_SelectedIDs: 3e290000
+    m_LastClickedID: 10558
     m_ExpandedIDs: 000000003e29000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -489,8 +489,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c8e40000
-    m_LastClickedInstanceID: 58568
+    m_SelectedInstanceIDs: 50290000
+    m_LastClickedInstanceID: 10576
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300007c090000
     m_RenameOverlay:
