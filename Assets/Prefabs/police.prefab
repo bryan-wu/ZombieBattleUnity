@@ -87,7 +87,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114387676004383462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -101,7 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1330686982368066, guid: e07292477890a764380941b4c58f46af,
     type: 2}
-  interval: 0.3
+  interval: 0.2
+  GunName: SubmachineGun
 --- !u!114 &114575196720512670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,7 +139,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:

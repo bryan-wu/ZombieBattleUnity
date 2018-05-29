@@ -1804,13 +1804,28 @@ MonoBehaviour:
   sounds:
   - clip: {fileID: 8300000, guid: f69dcdb2b812e98408d19191fc27e93b, type: 3}
     name: ZombieBite
-    volume: 0.5
+    volume: 0.9
     pitch: 1.5
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: bbef0563e5b2edf43a03b26174593dea, type: 3}
     name: HandGun
+    volume: 0.2
+    pitch: 1.5
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 80ea98656d73454458ccf06d01c7f2fc, type: 3}
+    name: ShortGun
     volume: 0.5
     pitch: 1.5
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 168b6a2781b74904eb79df9629968b48, type: 3}
+    name: SubmachineGun
+    volume: 0.3
+    pitch: 1.5
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 003960fb1c5745e44a71568820625385, type: 3}
+    name: ZombieSpawn
+    volume: 0.2
+    pitch: 1
     source: {fileID: 0}
 --- !u!1 &241651704
 GameObject:
