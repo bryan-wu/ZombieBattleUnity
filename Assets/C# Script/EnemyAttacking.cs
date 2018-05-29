@@ -12,6 +12,8 @@ public class EnemyAttacking : MonoBehaviour {
         // check if it collided with a soldier
         if (coll.gameObject.tag == "Ally")
         {
+            //Play Attack Sound
+            FindObjectOfType<AudioManager>().Play("ZombieBite");
             // Play Attack Animation
             GetComponent<Animator>().SetTrigger("IsAttacking");
             // Deal damage once a second

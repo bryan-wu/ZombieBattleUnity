@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+    bool IsPlayed = false;
     public Text waveMes;
     public GameObject Zombies;
     public GameObject Zombieboss;
@@ -56,7 +57,16 @@ public class GameController : MonoBehaviour
                 }
                 yield return new WaitForSeconds(TimeBetweenSpawns);
             }
+
+            //Play ZombieSpawn Sound
+            if (IsPlayed == false)
+            {
+                FindObjectOfType<AudioManager>().Play("ZombieSpawn");
+                IsPlayed = true;
+            }
+
             yield return StartCoroutine(WaveMessage("WARNING: new wave of zombies is here!", 2));
+            
             TimeBetweenWaves -= ReducedTimeBetWaves;
             ZombiesCount+=IncreaseZombies;          
             yield return new WaitForSeconds(TimeBetweenWaves);

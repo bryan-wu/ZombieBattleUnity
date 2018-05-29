@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class Firing : MonoBehaviour {
     // The Bullet Prefab
+    [SerializeField]
     public GameObject bulletPrefab;
 
     // Shooting Interval
+    [SerializeField]
     public float interval = 0.5f;
+
+    [SerializeField]
+    public string GunName;
 
     // Use this for initialization
     void Start()
@@ -39,6 +44,10 @@ public class Firing : MonoBehaviour {
     {
         if (zombieInFront())
         {
+
+            //Play Shooting Sound
+            FindObjectOfType<AudioManager>().Play(GunName);
+
             // Shooting Animation
             GetComponent<Animator>().SetTrigger("IsFiring");
 
