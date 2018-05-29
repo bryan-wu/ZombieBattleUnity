@@ -235,6 +235,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\C# Script\BuildInfo.cs" />
     <Compile Include="Assets\C# Script\BuildMenu.cs" />
     <Compile Include="Assets\C# Script\BulletDamage.cs" />
