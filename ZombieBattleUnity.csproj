@@ -251,6 +251,7 @@
     <Compile Include="Assets\C# Script\MusicBattle.cs" />
     <Compile Include="Assets\C# Script\MusicPlay.cs" />
     <Compile Include="Assets\C# Script\playerMovement.cs" />
+    <Compile Include="Assets\C# Script\ShortGunFiring.cs" />
     <Compile Include="Assets\C# Script\Sounds.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

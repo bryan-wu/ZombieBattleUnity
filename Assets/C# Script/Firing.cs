@@ -15,7 +15,7 @@ public class Firing : MonoBehaviour {
     public string GunName;
 
     // Use this for initialization
-    void Start()
+    public void Start()
     {
         // Try to shoot every few seconds
         InvokeRepeating("Shoot", 0, interval);
@@ -23,7 +23,7 @@ public class Firing : MonoBehaviour {
 
     //Post-condition: True is returned if a zombie is in front
     //false is returned otherwise
-    bool zombieInFront()
+    public bool zombieInFront()
     {
         // Raycast from the right of the game to the ally
         Vector2 origin = new Vector2(9.5f, transform.position.y);
@@ -40,7 +40,7 @@ public class Firing : MonoBehaviour {
     }
 
     //Post-condition: soldier fire
-    void Shoot()
+     void Shoot()
     {
         if (zombieInFront())
         {
