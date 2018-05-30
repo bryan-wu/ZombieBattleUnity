@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 5978
+  controlID: 6472
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 5979
+  controlID: 6450
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 5980
+  controlID: 6451
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,10 +202,10 @@ MonoBehaviour:
     height: 442
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 1351}
-    m_SelectedIDs: a8490000
-    m_LastClickedID: 18856
-    m_ExpandedIDs: ee7affff9480ffff96fbffff00000000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ce270000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 16d0fdffee7affff9480ffff96fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -424,18 +424,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Audio
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Audio
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\DENNIS\Desktop\UCSB\CS48\CS48Project\Github\Demo\ZombieBattleUnity
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b2320000
-    m_LastClickedID: 12978
+    m_SelectedIDs: bc270000
+    m_LastClickedID: 10172
     m_ExpandedIDs: 00000000bc27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -489,8 +489,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a8490000
-    m_LastClickedInstanceID: 18856
+    m_SelectedInstanceIDs: ce270000
+    m_LastClickedInstanceID: 10190
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007c090000
     m_RenameOverlay:
