@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 95099677719085980}
   - component: {fileID: 61685762838296604}
   - component: {fileID: 114944096818306270}
-  - component: {fileID: 114387676004383462}
   - component: {fileID: 114575196720512670}
+  - component: {fileID: 114078588085906492}
   m_Layer: 0
   m_Name: police
   m_TagString: Ally
@@ -87,7 +87,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114387676004383462
+--- !u!114 &114078588085906492
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -95,13 +95,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1156032148433422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8305c709ecbb99547b9072fe29424f35, type: 3}
+  m_Script: {fileID: 11500000, guid: dfdf42101d8c7964880e7fb0f8d24f94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1330686982368066, guid: e07292477890a764380941b4c58f46af,
+  bulletPrefab: {fileID: 1625956124850090, guid: 0c06030c80325d44e9db681c0e121140,
     type: 2}
-  interval: 0.2
-  GunName: SubmachineGun
+  interval: 1
+  GunName: ShortGun
 --- !u!114 &114575196720512670
 MonoBehaviour:
   m_ObjectHideFlags: 1

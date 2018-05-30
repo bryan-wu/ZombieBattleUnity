@@ -125,8 +125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1330686982368066, guid: e07292477890a764380941b4c58f46af,
     type: 2}
-  interval: 0.8
-  GunName: ShortGun
+  interval: 0.2
+  GunName: SubmachineGun
 --- !u!212 &212472361123100802
 SpriteRenderer:
   m_ObjectHideFlags: 1
