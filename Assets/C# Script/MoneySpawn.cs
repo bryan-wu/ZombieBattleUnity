@@ -17,6 +17,9 @@ public class MoneySpawn : MonoBehaviour {
     //Post-condition: generate a money prefab
     void Spawn()
     {
+        //Play MoneySpawning Sound
+        FindObjectOfType<AudioManager>().Play("MoneySpawn");
+
         // Load prefab into the Scene
         Instantiate(moneyPrefab,
                     transform.position,
