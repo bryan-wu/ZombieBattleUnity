@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\C# Script\AudioManager.cs" />
      <Compile Include="Assets\C# Script\BuildInfo.cs" />
      <Compile Include="Assets\C# Script\BuildMenu.cs" />
      <Compile Include="Assets\C# Script\BulletDamage.cs" />
@@ -63,7 +64,10 @@
      <Compile Include="Assets\C# Script\MenuButtons.cs" />
      <Compile Include="Assets\C# Script\MoneyCollect.cs" />
      <Compile Include="Assets\C# Script\MoneySpawn.cs" />
+     <Compile Include="Assets\C# Script\MusicBattle.cs" />
+     <Compile Include="Assets\C# Script\MusicPlay.cs" />
      <Compile Include="Assets\C# Script\playerMovement.cs" />
+     <Compile Include="Assets\C# Script\Sounds.cs" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
