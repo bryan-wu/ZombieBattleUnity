@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -28,8 +30,15 @@ public class GameController : MonoBehaviour
     //This gets called first automatically
     void Start()
     {
-        StartCoroutine (SpawnZombies());
+        StartCoroutine(SpawnZombies());
     }
+
+    void resetScene()
+    {
+        SceneManager.LoadScene("project");
+    }
+
+
     IEnumerator WaveMessage(string message, float displayTime)
     {
         waveMes.text = message;
@@ -41,33 +50,48 @@ public class GameController : MonoBehaviour
     IEnumerator SpawnZombies()
     {
         GameObject[] zom = { Zombies, Zombieboss, CrazyZombies };
-        while (TimeBetweenWaves>0)
+        while (TimeBetweenWaves > 0)
         {
-            for (int i = 0; i < ZombiesCount; i++)
+            if (EnemyAttacking.ZombiesPassed <= 5)
             {
-                foreach (GameObject obj in zom)
+                for (int i = 0; i < ZombiesCount; i++)
                 {
-                    Vector3 SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
-                    while (CheckBeforeSpawn(SpawnPositions) == false)
+
+                    foreach (GameObject obj in zom)
                     {
-                        SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
+                        Vector3 SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
+                        while (CheckBeforeSpawn(SpawnPositions) == false)
+                        {
+                            SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
+                        }
+                        Instantiate(obj, SpawnPositions, Quaternion.identity);
                     }
-                    Instantiate(obj, SpawnPositions, Quaternion.identity);
+                    yield return new WaitForSeconds(TimeBetweenSpawns);
                 }
-                yield return new WaitForSeconds(TimeBetweenSpawns);
+
+                yield return StartCoroutine(WaveMessage("WARNING: new wave of zombies is here!", 2));
+                TimeBetweenWaves -= ReducedTimeBetWaves;
+                ZombiesCount += IncreaseZombies;
+                yield return new WaitForSeconds(TimeBetweenWaves);
+
+
+            }
+            else
+            {
+                yield return StartCoroutine(WaveMessage("Game over. The zombies have taken over and you've lost :(", 5));
+                yield return StartCoroutine(WaveMessage("", 1));
+                resetScene();
+                yield break;
+
             }
 
-            //Play ZombieSpawn Sound
-          
-                FindObjectOfType<AudioManager>().Play("ZombieSpawn");
-              
-
-            yield return StartCoroutine(WaveMessage("WARNING: new wave of zombies is here!", 2));
-            
-            TimeBetweenWaves -= ReducedTimeBetWaves;
-            ZombiesCount+=IncreaseZombies;          
-            yield return new WaitForSeconds(TimeBetweenWaves);
         }
+        if (EnemyAttacking.ZombiesPassed <= 5)
+        {
+            yield return new WaitForSeconds(15);
+            yield return StartCoroutine(WaveMessage("Congrats player, you've won!", 10));
+        }
+        //resetScene();
     }
-     
+
 }
