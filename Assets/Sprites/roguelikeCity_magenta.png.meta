@@ -1016,7 +1016,7 @@ TextureImporter:
     21302022: roguelikeCity_magenta_1011
     21302024: roguelikeCity_magenta_1012
     21302026: roguelikeCity_magenta_1013
-    21302028: roguelikeCity_magenta_1014
+    21302028: wall
     21302030: roguelikeCity_magenta_1015
     21302032: roguelikeCity_magenta_1016
     21302034: roguelikeCity_magenta_1017
@@ -21394,7 +21394,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roguelikeCity_magenta_1014
+      name: wall
       rect:
         serializedVersion: 2
         x: 323

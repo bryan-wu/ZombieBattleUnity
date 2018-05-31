@@ -17,10 +17,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Walls
+  - Survivor
+  - Zombies
+  - Allies
   - 
   - 
   - 
@@ -50,4 +50,16 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 3898070895
+    locked: 0
+  - name: Zombies
+    uniqueID: 872050713
+    locked: 0
+  - name: Allies
+    uniqueID: 4206164527
+    locked: 0
+  - name: Survivor
+    uniqueID: 1226964485
+    locked: 0
+  - name: Wall
+    uniqueID: 1724763499
     locked: 0
