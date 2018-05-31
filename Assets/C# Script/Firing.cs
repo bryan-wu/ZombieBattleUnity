@@ -14,6 +14,9 @@ public class Firing : MonoBehaviour {
     [SerializeField]
     public string GunName;
 
+	[SerializeField]
+	public float range;
+
     // Use this for initialization
     public void Start()
     {
@@ -26,8 +29,8 @@ public class Firing : MonoBehaviour {
     public bool zombieInFront()
     {
         // Raycast from the right of the game to the ally
-        Vector2 origin = new Vector2(9.5f, transform.position.y);
-        RaycastHit2D[] hits = Physics2D.RaycastAll(origin, -Vector2.right);
+		Vector2 origin = new Vector2(transform.position.x, transform.position.y);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(origin, Vector2.right, range);
 
         // Find out if any Zombie was hit
         foreach (RaycastHit2D hit in hits)
