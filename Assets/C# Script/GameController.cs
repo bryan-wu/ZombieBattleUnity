@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     public GameObject Zombies;
     public GameObject Zombieboss;
     public GameObject CrazyZombies;
+    public GameObject HotDog;
     public float SpawnValuesX, TimeBetweenSpawns, TimeBetweenWaves, ReducedTimeBetWaves;
     public int ZombiesCount, IncreaseZombies, SpawnValuesYLower, SpawnValuesYUpper;
     //pos-condition: return false if they spawn at the same position
@@ -49,7 +50,7 @@ public class GameController : MonoBehaviour
     //post-condition: zombies are produced given the parameters that determin the rate of spawning and number of zombies spawned
     IEnumerator SpawnZombies()
     {
-        GameObject[] zom = { Zombies, Zombieboss, CrazyZombies };
+        GameObject[] zom = { Zombies, Zombieboss, CrazyZombies, HotDog };
         while (TimeBetweenWaves > 0)
         {
             if (EnemyAttacking.ZombiesPassed <= 5)
@@ -69,7 +70,7 @@ public class GameController : MonoBehaviour
                     yield return new WaitForSeconds(TimeBetweenSpawns);
                 }
 
-                yield return StartCoroutine(WaveMessage("WARNING: new wave of zombies is here!", 2));
+                yield return StartCoroutine(WaveMessage("WARNING: A new wave of zombies is here!", 2));
                 TimeBetweenWaves -= ReducedTimeBetWaves;
                 ZombiesCount += IncreaseZombies;
                 yield return new WaitForSeconds(TimeBetweenWaves);
