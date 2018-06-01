@@ -23,10 +23,10 @@ public class EnemyAttacking : MonoBehaviour
                 last = Time.time;
             }
         }
-        else if (coll.gameObject.tag == "FinishLine")
+        /*else if (coll.gameObject.tag == "FinishLine")
         {
             //count number of zombies passing
             ZombiesPassed += 1;
-        }
+        }*/
     }
 }

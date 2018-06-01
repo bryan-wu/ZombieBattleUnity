@@ -23,7 +23,10 @@ public class Health : MonoBehaviour {
             {
                 MoneyCollect.score += 50;
             }
-
+            if(gameObject.tag == "Ally")
+            {
+                GameController.lose = true;
+            }
         }
     }
 }

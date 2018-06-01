@@ -7,13 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public Text waveMes;
+    public Text waveMes,loseMes;
     public GameObject Zombies;
     public GameObject Zombieboss;
     public GameObject CrazyZombies;
     public GameObject HotDog;
     public float SpawnValuesX, TimeBetweenSpawns, TimeBetweenWaves, ReducedTimeBetWaves;
     public int ZombiesCount, IncreaseZombies, SpawnValuesYLower, SpawnValuesYUpper;
+    public static bool lose;
     //pos-condition: return false if they spawn at the same position
     //otherwise return true
     bool CheckBeforeSpawn(Vector3 newPos)
@@ -31,12 +32,21 @@ public class GameController : MonoBehaviour
     //This gets called first automatically
     void Start()
     {
+        loseMes.text = "";
+        lose = false;
         StartCoroutine(SpawnZombies());
     }
 
-    void resetScene()
+    void Update()
     {
-        SceneManager.LoadScene("project");
+        if (lose)
+        {
+            loseMes.text = "You lost the game! Press 'N' to restart the game";
+            if (Input.GetKey(KeyCode.N))
+            {
+                SceneManager.LoadScene("project");
+            }
+        }
     }
 
 
@@ -51,32 +61,30 @@ public class GameController : MonoBehaviour
     IEnumerator SpawnZombies()
     {
         GameObject[] zom = { Zombies, Zombieboss, CrazyZombies, HotDog };
-        while (TimeBetweenWaves > 0)
+        while ((TimeBetweenWaves > 0) && (!lose))
         {
-            if (EnemyAttacking.ZombiesPassed <= 5)
+            for (int i = 0; i < ZombiesCount; i++)
             {
-                for (int i = 0; i < ZombiesCount; i++)
+
+                foreach (GameObject obj in zom)
                 {
-
-                    foreach (GameObject obj in zom)
+                    Vector3 SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
+                    while (CheckBeforeSpawn(SpawnPositions) == false)
                     {
-                        Vector3 SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
-                        while (CheckBeforeSpawn(SpawnPositions) == false)
-                        {
-                            SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
-                        }
-                        Instantiate(obj, SpawnPositions, Quaternion.identity);
+                        SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
                     }
-                    yield return new WaitForSeconds(TimeBetweenSpawns);
+                    Instantiate(obj, SpawnPositions, Quaternion.identity);
                 }
-
-                yield return StartCoroutine(WaveMessage("WARNING: A new wave of zombies is here!", 2));
-                TimeBetweenWaves -= ReducedTimeBetWaves;
-                ZombiesCount += IncreaseZombies;
-                yield return new WaitForSeconds(TimeBetweenWaves);
-
-
+                yield return new WaitForSeconds(TimeBetweenSpawns);
             }
+
+            yield return StartCoroutine(WaveMessage("WARNING: A new wave of zombies is here!", 2));
+            TimeBetweenWaves -= ReducedTimeBetWaves;
+            ZombiesCount += IncreaseZombies;
+            yield return new WaitForSeconds(TimeBetweenWaves);
+
+
+            /*}
             else
             {
                 yield return StartCoroutine(WaveMessage("Game over. The zombies have taken over and you've lost :(", 5));
@@ -92,7 +100,8 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(15);
             yield return StartCoroutine(WaveMessage("Congrats player, you've won!", 10));
         }
-        //resetScene();
+        //resetScene();*/
+        }
     }
 
 }
