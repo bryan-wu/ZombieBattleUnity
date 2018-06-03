@@ -41,6 +41,15 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
+        GameObject[] zombiesEnd = GameObject.FindGameObjectsWithTag("Zombie");
+        foreach (GameObject obj in zombiesEnd)
+        {
+            if (obj.transform.position.x <= 0)
+            {
+                Destroy(obj);
+            }
+        }
+
         if (lose)
         {
             loseMes.text = "You lost the game! Press 'N' to restart the game";
@@ -50,12 +59,11 @@ public class GameController : MonoBehaviour
                 SceneManager.LoadScene("project");
             }
         }
-
-        
-        if (TimeBetweenWaves == 0)
+       
+        if (TimeBetweenWaves == 0 && lose == false)
         {
-            GameObject[] zom = GameObject.FindGameObjectsWithTag("Zombie");
-            if (zom.Length == 0)
+            //GameObject[] zom = GameObject.FindGameObjectsWithTag("Zombie");
+            if (zombiesEnd.Length == 0)
             {
                 win = true;
             }
