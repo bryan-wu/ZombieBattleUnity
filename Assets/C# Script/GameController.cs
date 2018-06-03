@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
     //otherwise return true
     bool CheckBeforeSpawn(Vector3 newPos)
     {
-        GameObject[] zom = GameObject.FindGameObjectsWithTag("Ally");
+        GameObject[] zom = GameObject.FindGameObjectsWithTag("Zombie");
         foreach (GameObject obj in zom)
         {
             if (obj.transform.position == newPos)
@@ -38,7 +38,7 @@ public class GameController : MonoBehaviour
         win = false;
         StartCoroutine(SpawnZombies());
     }
-
+    //This gets called every frame
     void Update()
     {
         GameObject[] zombiesEnd = GameObject.FindGameObjectsWithTag("Zombie");
