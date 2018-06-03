@@ -47,7 +47,13 @@ public class GameController : MonoBehaviour
             if (obj.transform.position.x <= 0)
             {
                 Destroy(obj);
+                EnemyAttacking.ZombiesPassed++;
             }
+        }
+
+        if (EnemyAttacking.ZombiesPassed >= 10)
+        {
+            lose = true;
         }
 
         if (lose)
@@ -56,13 +62,14 @@ public class GameController : MonoBehaviour
             if (Input.GetKey(KeyCode.N))
             {
                 MoneyCollect.score = 500;
+                EnemyAttacking.ZombiesPassed = 0;
                 SceneManager.LoadScene("project");
             }
         }
        
         if (TimeBetweenWaves == 0 && lose == false)
         {
-            //GameObject[] zom = GameObject.FindGameObjectsWithTag("Zombie");
+
             if (zombiesEnd.Length == 0)
             {
                 win = true;
@@ -115,23 +122,7 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(TimeBetweenWaves);
 
 
-            /*}
-            else
-            {
-                yield return StartCoroutine(WaveMessage("Game over. The zombies have taken over and you've lost :(", 5));
-                yield return StartCoroutine(WaveMessage("", 1));
-                resetScene();
-                yield break;
-
-            }
-
-        }
-        if (EnemyAttacking.ZombiesPassed <= 5)
-        {
-            yield return new WaitForSeconds(15);
-            yield return StartCoroutine(WaveMessage("Congrats player, you've won!", 10));
-        }
-        //resetScene();*/
+         
         }
     }
 

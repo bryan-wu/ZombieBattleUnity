@@ -3300,7 +3300,7 @@ MonoBehaviour:
   HotDog: {fileID: 1984157347828892, guid: f13317c249045bd42aef5698a5bd1c1c, type: 2}
   SpawnValuesX: 15
   TimeBetweenSpawns: 1.1
-  TimeBetweenWaves: 26
+  TimeBetweenWaves: 24
   ReducedTimeBetWaves: 2
   ZombiesCount: 3
   IncreaseZombies: 2
