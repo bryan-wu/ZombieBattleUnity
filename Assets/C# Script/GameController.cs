@@ -58,6 +58,7 @@ public class GameController : MonoBehaviour
 
         if (lose)
         {
+            FindObjectOfType<AudioManager>().Play("Defeat");
             loseMes.text = "You lost the game! Press 'N' to restart the game";
             if (Input.GetKey(KeyCode.N))
             {
@@ -78,6 +79,7 @@ public class GameController : MonoBehaviour
 
         if (win)
         {
+            FindObjectOfType<AudioManager>().Play("Victory");
             winMes.text = "You've won the game! Press 'N' to restart the game";
             if (Input.GetKey(KeyCode.N))
             {

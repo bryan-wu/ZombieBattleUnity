@@ -2005,6 +2005,16 @@ MonoBehaviour:
     volume: 0.5
     pitch: 1
     source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 1941966a7147eab46a55f6e70cdafd18, type: 3}
+    name: Defeat
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 16cb4d2f970348641bb68b387a2ad382, type: 3}
+    name: Victory
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1 &241651704
 GameObject:
   m_ObjectHideFlags: 0
