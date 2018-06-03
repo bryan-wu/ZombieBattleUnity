@@ -3292,6 +3292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveMes: {fileID: 147091777}
   loseMes: {fileID: 169462959}
+  winMes: {fileID: 1994547645}
   Zombies: {fileID: 1825985824724554, guid: 5862281c17e4d2c4ca450319b9b48393, type: 2}
   Zombieboss: {fileID: 1237354834704668, guid: 272e8d4c4212b42d9bad908cf4e07d0e, type: 2}
   CrazyZombies: {fileID: 1906590983218164, guid: c7eb038e20dc14579a9fa02edb8c8f13,
@@ -3299,7 +3300,7 @@ MonoBehaviour:
   HotDog: {fileID: 1984157347828892, guid: f13317c249045bd42aef5698a5bd1c1c, type: 2}
   SpawnValuesX: 15
   TimeBetweenSpawns: 1.1
-  TimeBetweenWaves: 24
+  TimeBetweenWaves: 2
   ReducedTimeBetWaves: 2
   ZombiesCount: 3
   IncreaseZombies: 2
@@ -5461,6 +5462,7 @@ RectTransform:
   - {fileID: 1422458064}
   - {fileID: 147091776}
   - {fileID: 169462958}
+  - {fileID: 1994547644}
   m_Father: {fileID: 0}
   m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9903,6 +9905,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 834f3d761b5ada94fb33aebfb5f55a3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1994547643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1994547644}
+  - component: {fileID: 1994547646}
+  - component: {fileID: 1994547645}
+  m_Layer: 5
+  m_Name: winMesObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1994547644
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1994547643}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1152846832}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1994547645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1994547643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: win message
+--- !u!222 &1994547646
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1994547643}
 --- !u!1 &1997595359
 GameObject:
   m_ObjectHideFlags: 0
