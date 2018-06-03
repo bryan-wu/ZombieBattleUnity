@@ -12,7 +12,7 @@ public class EnemyAttacking : MonoBehaviour
     void OnCollisionStay2D(Collision2D coll)
     {
         // check if it collided with a soldier
-        if (coll.gameObject.tag == "Ally")
+        if (coll.gameObject.tag == "Ally" || coll.gameObject.tag == "Survivor")
         {
             // Play Attack Animation
             GetComponent<Animator>().SetTrigger("IsAttacking");
@@ -23,10 +23,6 @@ public class EnemyAttacking : MonoBehaviour
                 last = Time.time;
             }
         }
-        /*else if (coll.gameObject.tag == "FinishLine")
-        {
-            //count number of zombies passing
-            ZombiesPassed += 1;
-        }*/
+        
     }
 }

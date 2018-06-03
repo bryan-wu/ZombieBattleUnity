@@ -60,6 +60,10 @@ public class GameController : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Defeat");
             loseMes.text = "You lost the game! Press 'N' to restart the game";
+            foreach (GameObject obj in zombiesEnd)
+            {
+                    Destroy(obj);
+            }
             if (Input.GetKey(KeyCode.N))
             {
                 MoneyCollect.score = 500;

@@ -21,9 +21,9 @@ public class Health : MonoBehaviour {
             Destroy(gameObject);
             if (gameObject.tag == "Zombie")
             {
-                MoneyCollect.score += 50;
+                MoneyCollect.score += 10;
             }
-            if(gameObject.tag == "Ally")
+            if(gameObject.tag == "Survivor")
             {
                 GameController.lose = true;
             }

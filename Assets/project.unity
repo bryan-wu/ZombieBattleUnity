@@ -3310,7 +3310,7 @@ MonoBehaviour:
   HotDog: {fileID: 1984157347828892, guid: f13317c249045bd42aef5698a5bd1c1c, type: 2}
   SpawnValuesX: 15
   TimeBetweenSpawns: 1.1
-  TimeBetweenWaves: 24
+  TimeBetweenWaves: 10
   ReducedTimeBetWaves: 2
   ZombiesCount: 3
   IncreaseZombies: 2
@@ -8445,6 +8445,20 @@ Prefab:
         type: 2}
       propertyPath: m_SortingLayer
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1156032148433422, guid: 36646130f50cdb34ebe0e3ff5dd76456, type: 2}
+      propertyPath: m_TagString
+      value: Survivor
+      objectReference: {fileID: 0}
+    - target: {fileID: 114944096818306270, guid: 36646130f50cdb34ebe0e3ff5dd76456,
+        type: 2}
+      propertyPath: cur
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114575196720512670, guid: 36646130f50cdb34ebe0e3ff5dd76456,
+        type: 2}
+      propertyPath: speed
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 36646130f50cdb34ebe0e3ff5dd76456, type: 2}

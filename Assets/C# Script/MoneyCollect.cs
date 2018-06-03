@@ -11,7 +11,7 @@ public class MoneyCollect : MonoBehaviour {
     void OnMouseDown()
     {
         // Increase Score
-        score += 20;
+        score += 10;
 
         // Destroy coin
         Destroy(gameObject);
