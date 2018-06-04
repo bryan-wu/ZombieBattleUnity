@@ -23,12 +23,7 @@ public class BuildMenu : MonoBehaviour {
             {
                 cur = bi;
             }
-            if (GameController.lose == true)
-            {
-                GUI.enabled = false;
-            }
-            else
-			    GUI.enabled = true;
+            GUI.enabled = true;
 
         }
         GUILayout.EndHorizontal();

@@ -88,6 +88,7 @@ public class GameController : MonoBehaviour
             if (Input.GetKey(KeyCode.N))
             {
                 MoneyCollect.score = 500;
+                EnemyAttacking.ZombiesPassed = 0;
                 SceneManager.LoadScene("project");
             }
         }
