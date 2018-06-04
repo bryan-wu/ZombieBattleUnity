@@ -58,7 +58,9 @@ public class GameController : MonoBehaviour
 
         if (lose)
         {
-            FindObjectOfType<AudioManager>().Play("Defeat");
+            //Play Losing Sound
+            FindObjectOfType<AudioManager>().Play("MoneySpawn");
+            //FindObjectOfType<AudioManager>().Play("Defeat");
             loseMes.text = "You lost the game! Press 'N' to restart the game";
             foreach (GameObject obj in zombiesEnd)
             {
@@ -122,6 +124,9 @@ public class GameController : MonoBehaviour
                 }
                 yield return new WaitForSeconds(TimeBetweenSpawns);
             }
+
+            //Play Zombie Wave Sound
+            FindObjectOfType<AudioManager>().Play("ZombieSpawn");
 
             yield return StartCoroutine(WaveMessage("WARNING: A new wave of zombies is here!", 2));
             TimeBetweenWaves -= ReducedTimeBetWaves;
