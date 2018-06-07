@@ -10,6 +10,7 @@ public void SwitchPage (string pageName)
         if (pageName == "project")
         {
             MoneyCollect.score = 500;
+            EnemyAttacking.ZombiesPassed = 0;
         }
         SceneManager.LoadScene(pageName, LoadSceneMode.Single);
     }
