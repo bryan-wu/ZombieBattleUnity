@@ -56,6 +56,13 @@ public class GameController : MonoBehaviour
             lose = true;
         }
 
+        GameObject[] bulletsEnd = GameObject.FindGameObjectsWithTag("Bullet");
+        foreach (GameObject obj in bulletsEnd)
+        {
+            if (obj.transform.position.x >= 10.5)
+                Destroy(obj);
+        }
+
         if (lose)
         {
             //Play Losing Sound

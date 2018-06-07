@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Music
   - Survivor
+  - Bullet
   layers:
   - Default
   - TransparentFX
