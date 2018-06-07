@@ -3310,7 +3310,7 @@ MonoBehaviour:
   HotDog: {fileID: 1984157347828892, guid: f13317c249045bd42aef5698a5bd1c1c, type: 2}
   SpawnValuesX: 15
   TimeBetweenSpawns: 1.1
-  TimeBetweenWaves: 10
+  TimeBetweenWaves: 24
   ReducedTimeBetWaves: 2
   ZombiesCount: 3
   IncreaseZombies: 2
@@ -5302,7 +5302,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
