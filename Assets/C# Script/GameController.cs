@@ -61,6 +61,8 @@ public class GameController : MonoBehaviour
             //Play Losing Sound
             FindObjectOfType<AudioManager>().Play("MoneySpawn");
             //FindObjectOfType<AudioManager>().Play("Defeat");
+            FindObjectOfType<AudioManager>().Mute("ZombieSpawn");
+            waveMes.text = "";
             loseMes.text = "You lost the game! Press 'N' to restart the game";
             foreach (GameObject obj in zombiesEnd)
             {
@@ -86,6 +88,7 @@ public class GameController : MonoBehaviour
         if (win)
         {
             FindObjectOfType<AudioManager>().Play("Victory");
+            winMes.text = "";
             winMes.text = "You've won the game! Press 'N' to restart the game";
             if (Input.GetKey(KeyCode.N))
             {

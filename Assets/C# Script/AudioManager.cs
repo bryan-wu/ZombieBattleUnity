@@ -23,6 +23,12 @@ public class AudioManager : MonoBehaviour {
         Sounds s = Array.Find(sounds, sound => sound.name == name);
         s.source.Play();
     }
+
+    public void Mute(string name)
+    {
+        Sounds s = Array.Find(sounds, sound => sound.name == name);
+        s.source.volume = 0;
+    }
 	// Update is called once per frame
 	void Update () {
 		
