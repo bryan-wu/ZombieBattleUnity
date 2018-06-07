@@ -1,6 +1,6 @@
 # G12 Zombie Battle
 ## Everthing we have for the final project is on the DemoProject branch, including our latest version of project and all the instructions
-![alt text](https://github.com/bryan-wu/ZombieBattleUnity/blob/new_map/updatedsample.PNG "In-game capture")
+![alt text](https://github.com/bryan-wu/ZombieBattleUnity/blob/DemoProject/updatedsample.PNG "In-game capture")
 ## 1. List precise instructions to build and execute your system. Be sure to tell us about necessary libraries, and about any operating system or other restrictions.
 * Our game is a desktop game
 * Only support OS X or Windows system
