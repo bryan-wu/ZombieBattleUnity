@@ -13,8 +13,8 @@ public class BuildMenu : MonoBehaviour {
     public static BuildInfo cur;
 //post-condition: shop is drawn with buttons that represent different soldiers vertically aligned
     void OnGUI() {
-        GUILayout.BeginArea(new Rect(5, Screen.height/2 - 100, 100, 200));
-        GUILayout.BeginVertical("box");
+        GUILayout.BeginArea(new Rect(Screen.width / 2 - 200, 0, 400, 200));
+        GUILayout.BeginHorizontal("box");
         GUILayout.Box(new GUIContent(MoneyCollect.score.ToString(), moneyImage));
         foreach (BuildInfo bi in allies) {
             bool canBuy = MoneyCollect.score >= bi.price;
