@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
     public GameObject Zombieboss;
     public GameObject CrazyZombies;
     public GameObject HotDog;
-    public float SpawnValuesX, TimeBetweenSpawns, TimeBetweenWaves, ReducedTimeBetWaves;
+	public float SpawnValuesX, TimeBetweenSpawns, TimeBetweenWaves, ReducedTimeBetWaves, increase_health;
     public int ZombiesCount, IncreaseZombies, SpawnValuesYLower, SpawnValuesYUpper;
     public static bool lose, win;
     //pos-condition: return false if they spawn at the same position
@@ -42,6 +42,7 @@ public class GameController : MonoBehaviour
     void Update()
     {
         GameObject[] zombiesEnd = GameObject.FindGameObjectsWithTag("Zombie");
+		GameObject[] zom = { Zombies, Zombieboss, CrazyZombies, HotDog };
         foreach (GameObject obj in zombiesEnd)
         {
             if (obj.transform.position.x <= 0)
@@ -71,6 +72,9 @@ public class GameController : MonoBehaviour
             FindObjectOfType<AudioManager>().Mute("ZombieSpawn");
             waveMes.text = "";
             loseMes.text = "You lost the game! Press 'N' to restart the game";
+			foreach (GameObject obj in zom) {
+				obj.GetComponent<Health> ().backhealth (increase_health);
+			}
             foreach (GameObject obj in zombiesEnd)
             {
                     Destroy(obj);
@@ -97,6 +101,13 @@ public class GameController : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Victory");
             winMes.text = "";
             winMes.text = "You've won the game! Press 'N' to restart the game";
+			foreach (GameObject obj in zom) {
+				obj.GetComponent<Health> ().backhealth (increase_health);
+			}
+			foreach (GameObject obj in zombiesEnd)
+			{
+				Destroy(obj);
+			}
             if (Input.GetKey(KeyCode.N))
             {
                 MoneyCollect.score = 500;
@@ -130,6 +141,7 @@ public class GameController : MonoBehaviour
                     {
                         SpawnPositions = new Vector3(SpawnValuesX, Random.Range(SpawnValuesYLower, SpawnValuesYUpper));
                     }
+					obj.GetComponent<Health> ().increasehealth (increase_health);
                     Instantiate(obj, SpawnPositions, Quaternion.identity);
                 }
                 yield return new WaitForSeconds(TimeBetweenSpawns);

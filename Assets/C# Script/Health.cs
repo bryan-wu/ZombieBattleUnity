@@ -6,8 +6,18 @@ public class Health : MonoBehaviour {
     
     // Current Health
     [SerializeField]
-    int cur = 5;
+	public float cur = 5;
+	[SerializeField]
+	public float ori_cur;
 
+	public void increasehealth(float add_health){
+		cur += add_health;
+	}
+	public void backhealth(float back_health){
+		while (cur > ori_cur) {
+			cur -= back_health;
+		}
+	}
     //Post-condition: object's health get damaged
     // object destoried if health goes down to zero
     public void doDamage(int n)
