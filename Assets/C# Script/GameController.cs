@@ -31,12 +31,17 @@ public class GameController : MonoBehaviour
     }
     //This gets called first automatically
     void Start()
-    {
+	{	
+		GameObject[] zom = { Zombies, Zombieboss, CrazyZombies, HotDog };
+		foreach (GameObject obj in zom) {
+			obj.GetComponent<Health> ().backhealth (increase_health);
+		}
         loseMes.text = "";
         lose = false;
         winMes.text = "";
         win = false;
         StartCoroutine(SpawnZombies());
+
     }
     //This gets called every frame
     void Update()
