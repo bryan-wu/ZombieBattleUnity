@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cur: 5
+  ori_cur: 5
 --- !u!114 &114732988320657086
 MonoBehaviour:
   m_ObjectHideFlags: 1

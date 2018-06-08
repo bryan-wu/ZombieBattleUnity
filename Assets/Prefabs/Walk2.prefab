@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cur: 10
+  ori_cur: 10
 --- !u!114 &114755267147983178
 MonoBehaviour:
   m_ObjectHideFlags: 1

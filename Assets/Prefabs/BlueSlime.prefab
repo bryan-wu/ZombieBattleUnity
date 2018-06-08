@@ -144,6 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cur: 4
+  ori_cur: 4
 --- !u!212 &212476876223140650
 SpriteRenderer:
   m_ObjectHideFlags: 1
