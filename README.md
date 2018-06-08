@@ -50,4 +50,7 @@
 <https://drive.google.com/file/d/1Vc7xmYOnRlfmHbRI0YvK9OHkuM6Ig3wL/view?usp=sharing> <https://drive.google.com/drive/folders/1rlHqTyTCo0Z7EsxgeXxXXECEhIbOOlVv?usp=sharing>
 * <https://unity3d.com/learn/tutorials/projects/2d-ufo-tutorial/controlling-player>
   <https://www.youtube.com/watch?v=wDtNnD6HncU>
+* https://www.youtube.com/watch?v=OvM5kW8PdGo
+* https://www.youtube.com/watch?v=JKoBWBXVvKY
+* https://www.youtube.com/watch?v=6OT43pvUyfY
 
