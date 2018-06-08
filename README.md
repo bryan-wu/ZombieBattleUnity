@@ -8,7 +8,7 @@
 * In order to build our project, Unity must be downloaded and used to open our project then build
 ### How to run our project (NO NEED TO DOWNLOAD UNITY, SKIP "HOW TO BUILD OUR PROJECT" IF YOU ONLY NEED TO RUN)
 #### For Windows computer:
-* Download the zip file [Windows 64 bit Installation](https://drive.google.com/open?id=1S9sYeDLZjktDaNnRKx7R9n4cP51AWZRx)
+* Download the zip file [Windows 64 bit Installation](https://drive.google.com/open?id=1l93JiZtrX-Lo9TkLhpD27wbBPVRr2zo5)
 * Unzip it
 * Run the executable "Zombie Battle G12.exe". 
   1. Make sure to check the Windowed option so that you can close the game window. 
@@ -17,7 +17,7 @@
 * Play the game according to the instructions under number 4
 * Exit by closing the window
 #### For Mac:
-* Download the zip file [OS X Installation](https://drive.google.com/file/d/1SbfHrpfKzpbxfp86QZHHqG2XzWpd2glB/view?usp=sharing)
+* Download the zip file [OS X Installation](https://drive.google.com/open?id=1ciPjYhTharpu859l5h_GD1FEZptj_cX5)
 * Unzip it
 * May need to change the setting in system preference, security & privacy, allow app downloaded from: check "anywhere" so that Mac won'r prevent you from running our game
 * Double clicks to open the upzipped file. 
