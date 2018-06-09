@@ -8,7 +8,7 @@
 * In order to build our project, Unity must be downloaded and used to open our project then build
 ### How to run our project (NO NEED TO DOWNLOAD UNITY, SKIP "HOW TO BUILD OUR PROJECT" IF YOU ONLY NEED TO RUN)
 #### For Windows computer:
-* Download the zip file [Windows 64 bit Installation](https://drive.google.com/open?id=1l93JiZtrX-Lo9TkLhpD27wbBPVRr2zo5)
+* Download the zip file [Windows 64 bit Installation](https://drive.google.com/file/d/1fTG8APbaqy0pnA89RgLHQhVmwBE_3zpa/view?usp=sharing)
 * Unzip it
 * Run the executable "Zombie Battle G12.exe". 
   1. Make sure to check the Windowed option so that you can close the game window. 
@@ -34,6 +34,8 @@
 ##### Note
 * Our source code is in the Assets folder, under C# Script
 ## 4. Finally include brief guidance about how to use the system (e.g., how to play the game).
+##### Note
+* Our game has background music and sound effects so speaker or headphones are needed in order to have the best gaming experience.
 * First, the main menu will be displayed with our game logo and options to play the game or see the instructions. If you choose to see the instructions first, you can click the back button on the instruction page to return to the main menu
 * When you are in the game scene, zombies will automatically start coming from the right of the screen. You can control the police which is the only survivor you can choose to be right now using A,S,W,D on the keyboard to move the police left, down, up, right respectively. You can also purchase soldiers to help you shoot the zombies by first clicking the button that corresponds to a particular kind of soldiers and then click the grid that you want your soldier to be placed on (You have to click an empty grid after choosing the soldier because the system won't let you place multiple soldiers on the same tile). Money will be subducted automatically after your purchase given the price listed in the shop. Also, 10 coins will be added to your account after a zombie is killed. You can also collect coins generated from the money maker by clicking on it. Each one is worth 10 coins. 
 * Soldiers and the player will be dead if they are touched by zombies too many times.
