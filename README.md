@@ -10,7 +10,7 @@
 #### For Windows computer:
 * Download the zip file [Windows 64 bit Installation](https://drive.google.com/file/d/1fTG8APbaqy0pnA89RgLHQhVmwBE_3zpa/view?usp=sharing)
 * Unzip it
-* Run the executable "Zombie Battle G12.exe". 
+* Run the executable "windows_final_exe.exe". 
   1. Make sure to check the Windowed option so that you can close the game window. 
   2. Select the screen resolution to be 1600 * 900 (if your computer doesn't have that option, then just keep the default value but cutting off of the scenes will be unpredictable). 
   3. Click "Play!"
@@ -19,10 +19,10 @@
 #### For Mac:
 * Download the zip file [OS X Installation](https://drive.google.com/open?id=1ciPjYhTharpu859l5h_GD1FEZptj_cX5)
 * Unzip it
-* May need to change the setting in system preference, security & privacy, allow app downloaded from: check "anywhere" so that Mac won'r prevent you from running our game
+* May need to change the setting in system preference, security & privacy, allow app downloaded from: check "anywhere" so that Mac won't prevent you from running our game
 * Double clicks to open the upzipped file. 
   1. Make sure to check the Windowed option so that you can close the game window. 
-  2. Can keep the default screen resolution but some parts of the battle ground will be cut off depending on different kinds of Mac (can also try 720 * 480 resolution if that's an option). That's something we need to fix later (mentioned below). 
+  2. Can keep the default screen resolution but some parts of the battle ground will be cut off depending on different kinds of Mac (can also try 720 * 480 resolution if that's an option).
   3. Click play
 * Play the game according to the instructions under number 4
 * Exit by closing the window
@@ -44,7 +44,7 @@
 * You can't control the shooting of soldiers and player. They will automatically start shooting once the zombies are in a given range and different soldiers have different shooting range and firing power.
 * As the game proceeds, the health of zombies will gradually increase, making it harder to kill the zombies later in the game.
 * You can choose to go back to the main menu anytime during the game by clicking the back to menu button. Game will start from the very start if you click play on the main menu again.
-* You would lose the game if the player dies or a certain amount of zombies passes the last line in the leftmost of the battle ground. You can choose to restart the game by pressing 'N' key after you lose.
+* You would lose the game if the player dies OR a certain amount of zombies passes the last line in the leftmost of the battle ground. You can choose to restart the game by pressing 'N' key after you lose.
 * You would win the game if you make it till the end. You can choose to restart the game by pressing 'N' key after you win.
 * You can just exit the application by closing the window
 ## 5. All the resources(tutorials) we referred to
